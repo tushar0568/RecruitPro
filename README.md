@@ -1,60 +1,68 @@
-# 🎯 RecruitPro — Recruiter Dashboard v1.0.0
+# 🎯 RecruitPro v1.0.1 — Recruiter Dashboard
 
-A complete desktop recruitment management tool built for recruiters 
-to track candidates, log calls, and manage their hiring pipeline — 
-all stored locally on your PC.
+> A complete offline desktop recruitment management tool for recruiters 
+> to track candidates, log calls, and manage their hiring pipeline.
 
 ---
 
-## ✅ Features
+## 🆕 What's New in v1.0.1
 
-### 👥 Candidates Management
-- Add and manage full candidate profiles
-- Track name, email, phone (with country code), LinkedIn, visa status
-- Monitor current & expected salary, skills, domain, location
-- Pipeline stage tracking (Sourced → Screened → Submitted → Interviewing → Offer → Placed)
-- Auto-filled created date & time on every entry
-- Comment / Next Action visible directly on main screen
+### ✅ New Features
+- 📌 **Sticky Search & Filter Bar** — Search bar stays visible while scrolling in Candidates and Calls sections
+- 📅 **Auto Date & Time Fill** — Created date and time auto-fills when adding a new candidate or logging a call
+- 👁️ **Comments & Next Action Visible** — Now visible directly on main screen for both Candidates and Calls
+- 🌍 **Country Code Selector** — Phone field now has a country code dropdown (20+ countries)
+- 🛂 **Expanded US Visa Options** — Added GC-EAD and full US visa categories
+- 📐 **Responsive Layout** — App auto-adjusts when you resize the window
+- 🔏 **Self-Signed Certificate** — Installer now auto-installs certificate on any PC (no installation warning)
 
-### 📞 Call Log
-- Log every candidate call with date, time, and call type
-- Track call status (Hot 🔥, Active, Follow-Up, Pending, Voicemail, Closed)
-- Next Action box highlighted for quick reference
-- Set follow-up dates and reminders
+### 🔧 Improvements
+- 💼 **Candidate Name field** in Log Call now spans full width — same size as other fields
+- 📊 **Bigger Dashboard KPI Cards** — Larger numbers, bigger icons, more padding
+- 📋 **Wider Table Columns** — More breathing room across all columns
+- 📤 **Improved Excel Export** — Dark navy headers, alternating row colors, frozen top row, time column added
+- 🗑️ **New Delete Icon** — Replaced emoji with clean SVG trash icon
+- 🇺🇸 **Default Country Code +1** — Phone field defaults to US (+1)
+- 🛂 **Default Visa: US Citizen** — Visa status defaults to US Citizen
 
-### 📊 Dashboard
-- Live KPI cards — Total Candidates, Placed, Hot Calls, Follow-Ups Due
-- Visual pipeline progress bar
-- Recent calls summary
+### 🐛 Bug Fixes
+- ❌ Fixed blank screen issue caused by broken JSX syntax
+- ❌ Fixed runtime Babel compilation failure in Electron
+- ❌ Fixed unclosed div in candidates table causing app crash
+- ❌ Fixed table-wrap structure causing JSX parser error
 
-### 💾 Data & Backup
-- Auto-saves all data locally to your PC (no internet needed)
-- Export full backup as JSON file
-- Import backup to restore data on any PC
-- Export all data to formatted Excel (.xlsx) file
+---
 
-### ⚙️ App Settings
-- Dark Mode / Light Mode toggle
-- Zoom In / Zoom Out (5% steps)
-- Full US Visa options + international visa support
-- Country code selector for phone numbers (20+ countries)
+## 📦 Installation
+
+### Installer (Recommended)
+1. Download **RecruitPro Setup 1.0.1.exe**
+2. Double-click to install
+3. Certificate installs automatically — no warnings ✅
+4. Launch from Desktop or Start Menu
 
 ---
 
 ## 🖥️ System Requirements
 - Windows 10 / 11 (64-bit)
 - No internet required after installation
-- ~200 MB disk space
+- ~250 MB disk space
 
 ---
 
-## 📦 Installation
-1. Download **RecruitPro Setup 1.0.0.exe**
-2. Double-click to install
-3. Follow the setup wizard
-4. Launch from Desktop or Start Menu
+## ✨ Key Features
+- 👥 Full candidate profile management
+- 📞 Call log with date, time & status tracking
+- 📊 Live dashboard with pipeline overview
+- 💾 Auto-save to local storage (100% offline)
+- 📤 Export to Excel (.xlsx)
+- 🔄 JSON backup & restore
+- 🌙 Dark / Light mode toggle
+- 🔍 Zoom In / Out (5% steps)
+- 🛂 Full US Visa status options
 
 ---
 
 ## 👨‍💻 Built by
-Tushar Jaiswal
+**Tushar Jaiswal**
+MIT License © 2026
